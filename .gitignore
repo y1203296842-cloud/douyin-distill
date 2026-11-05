@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 数据（隐私：媒体与抽帧产物不上传）
+data/media/
+data/covers/
+data/plans/
+
+# 本地产物
+creators/
+reports/

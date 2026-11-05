@@ -1,0 +1,94 @@
+{
+  "paths": {
+    "creators_dir": "creators",
+    "data_dir": "data",
+    "media_dir": "data/media",
+    "raw_dir": "data/raw",
+    "transcript_dir": "data/transcripts",
+    "creator_store_dir": "data/creators",
+    "index_file": "data/index.json",
+    "history_file": "data/crawl-history.json",
+    "plan_dir": "data/plans",
+    "learning_dir": "data/learning",
+    "knowledge_dir": "knowledge"
+  },
+  "external": {
+    "cheat_root": "",
+    "cheat_from_collector": "",
+    "asr_model_dir": "",
+    "sherpa_bin": "",
+    "ffmpeg_bin": "",
+    "media_fallback_dir": ""
+  },
+  "collection": {
+    "default_count": 50,
+    "sort": "homepage_order",
+    "filters": {
+      "min_digg": null,
+      "max_digg": null,
+      "publish_after": null,
+      "publish_before": null,
+      "keywords_any": [],
+      "keywords_none": [],
+      "content_types": [],
+      "require_transcript": false,
+      "min_duration_sec": null,
+      "max_duration_sec": null,
+      "pinned_only": false
+    },
+    "transcript": {
+      "enabled": true,
+      "retry_failed": true,
+      "max_retry": 3
+    },
+    "dedupe": {
+      "key_priority": [
+        "video_id",
+        "canonical_url",
+        "content_hash"
+      ]
+    },
+    "update": {
+      "update_stats": true,
+      "keep_history": true,
+      "max_history_per_video": 10
+    },
+    "network": {
+      "page_wait_sec": 6,
+      "between_videos_sec": 2,
+      "max_videos_per_run": 60,
+      "stop_on_captcha": true,
+      "page_load_timeout_sec": 25
+    },
+    "retry": {
+      "max_attempts": 2,
+      "backoff_sec": 5
+    }
+  },
+  "tags_ignore_in_hotspot": [
+    "dou上热门",
+    "上热门",
+    "热门"
+  ],
+  "transcripts": {
+    "punctuate": true,
+    "comma_gap_sec": 0.18,
+    "period_gap_sec": 0.35,
+    "paragraph_gap_sec": 0.6,
+    "sentence_max_chars": 22,
+    "paragraph_sentences": 4,
+    "confidence": true,
+    "low_confidence_threshold": 0.9,
+    "corrections": {},
+    "corrections_by_creator": {}
+  },
+  "workspace": {
+    "name": "",
+    "platform": "",
+    "identity": {
+      "nickname": "",
+      "niche": "",
+      "audience": ""
+    }
+  }
+}
