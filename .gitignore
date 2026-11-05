@@ -8,6 +8,6 @@ data/media/
 data/covers/
 data/plans/
 
-# 本地产物
-creators/
-reports/
+# 本地产物（仅根目录；data/creators/ 是数据仓，随仓库上传）
+/creators/
+/reports/
