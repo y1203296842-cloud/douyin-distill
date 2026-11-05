@@ -1,0 +1,239 @@
+{
+  "creator_profile": {
+    "name": "示例博主",
+    "douyin_id": "10000000000000000000",
+    "sec_uid": "MS4wLjABAAAA0000000000000000000000000000000000000000000000",
+    "home_url": "https://www.douyin.com/user/MS4wLjABAAAA0000000000000000000000000000000000000000000000",
+    "ip_location": "示例",
+    "bio": "这是一个虚构的示例博主，仅用于演示蒸馏流程，不代表任何真实账号。",
+    "works_total": "3",
+    "audience": null
+  },
+  "account_stats": [
+    {
+      "date": "2026-11-01",
+      "fans_raw": "1.2万",
+      "likes_raw": "15.6万",
+      "works_raw": "3",
+      "fans": 12000,
+      "likes": 156000,
+      "works": 3,
+      "crawled_at": "2026-11-01T12:00:00+08:00"
+    }
+  ],
+  "content_summary": {
+    "topics": [
+      {"label": "示例选题A", "count": 2},
+      {"label": "示例选题B", "count": 1}
+    ]
+  },
+  "videos": [
+    {
+      "video_id": "1000000000000000001",
+      "url": "https://www.douyin.com/video/1000000000000000001",
+      "canonical_url": "https://www.douyin.com/video/1000000000000000001",
+      "creator_name": "示例博主",
+      "title": "为什么你发了100条视频还是没流量？",
+      "desc": "示例描述 #示例",
+      "tags": ["示例"],
+      "publish_time": "2026-10-20T20:00:00+08:00",
+      "publish_time_raw": "2026-10-20",
+      "duration_sec": 25.0,
+      "duration_raw": "00:25",
+      "video_type": "口播",
+      "music": null,
+      "pinned": false,
+      "collection": null,
+      "author_declaration": null,
+      "stats": {
+        "digg_raw": "12.8万",
+        "comment_raw": "3200",
+        "collect_raw": "4.5万",
+        "share_raw": "2100",
+        "digg": 128000,
+        "comment": 3200,
+        "collect": 45000,
+        "share": 2100,
+        "extra": null
+      },
+      "list_digg_raw": "12.8万",
+      "media_path": null,
+      "media_bytes": null,
+      "errors": [],
+      "content_analysis": {
+        "opening_3s": "为什么你发了100条视频还是没流量？",
+        "opening_5s": "为什么你发了100条视频还是没流量？",
+        "core_topic": "为什么没流量",
+        "content_categories": ["运营方法论"],
+        "core_viewpoint": null,
+        "content_structure": "提出问题 → 逐条分析原因 → 给出解法",
+        "structure_markers": ["原因", "解法"],
+        "cta": null,
+        "special_expression": "数字开场",
+        "flags": {
+          "是否口播": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否提问开场": {"value": true, "rule": "示例", "evidence": "为什么", "reason": null},
+          "是否数字开场": {"value": true, "rule": "示例", "evidence": "100", "reason": null},
+          "是否教程": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否案例": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否剧情": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否热点借势": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否冲突开场": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否反常识表达": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否有评论区引导": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否有关注/私信/收藏引导": {"value": false, "rule": "示例", "evidence": null, "reason": null}
+        }
+      },
+      "comments": {
+        "items": [
+          {"text": "示例评论一", "digg": 888}
+        ]
+      },
+      "transcript": {
+        "status": "ok",
+        "segments": [
+          {"start": 0, "end": 25, "text": "为什么你发了100条视频还是没流量？可能不是你不努力，而是选题和方法的问题。"}
+        ],
+        "text": "为什么你发了100条视频还是没流量？可能不是你不努力，而是选题和方法的问题。"
+      }
+    },
+    {
+      "video_id": "1000000000000000002",
+      "url": "https://www.douyin.com/video/1000000000000000002",
+      "canonical_url": "https://www.douyin.com/video/1000000000000000002",
+      "creator_name": "示例博主",
+      "title": "3个开头钩子，让观众3秒留下",
+      "desc": "示例描述 #示例",
+      "tags": ["示例"],
+      "publish_time": "2026-10-18T19:30:00+08:00",
+      "publish_time_raw": "2026-10-18",
+      "duration_sec": 32.0,
+      "duration_raw": "00:32",
+      "video_type": "口播",
+      "music": null,
+      "pinned": false,
+      "collection": null,
+      "author_declaration": null,
+      "stats": {
+        "digg_raw": "9.2万",
+        "comment_raw": "1800",
+        "collect_raw": "3.1万",
+        "share_raw": "1200",
+        "digg": 92000,
+        "comment": 1800,
+        "collect": 31000,
+        "share": 1200,
+        "extra": null
+      },
+      "list_digg_raw": "9.2万",
+      "media_path": null,
+      "media_bytes": null,
+      "errors": [],
+      "content_analysis": {
+        "opening_3s": "3个开头钩子，让观众3秒留下",
+        "opening_5s": "3个开头钩子，让观众3秒留下",
+        "core_topic": "开头钩子",
+        "content_categories": ["运营方法论"],
+        "core_viewpoint": null,
+        "content_structure": "数字罗列：第1种 → 第2种 → 第3种",
+        "structure_markers": ["第1种", "第2种", "第3种"],
+        "cta": null,
+        "special_expression": "数字型列表",
+        "flags": {
+          "是否口播": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否提问开场": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否数字开场": {"value": true, "rule": "示例", "evidence": "3", "reason": null},
+          "是否教程": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否案例": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否剧情": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否热点借势": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否冲突开场": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否反常识表达": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否有评论区引导": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否有关注/私信/收藏引导": {"value": false, "rule": "示例", "evidence": null, "reason": null}
+        }
+      },
+      "comments": {
+        "items": [
+          {"text": "示例评论二", "digg": 520}
+        ]
+      },
+      "transcript": {
+        "status": "ok",
+        "segments": [
+          {"start": 0, "end": 32, "text": "3个开头钩子，让观众3秒留下。第一种，直接说数字；第二种，抛出一个反常识问题；第三种，承诺一个具体结果。"}
+        ],
+        "text": "3个开头钩子，让观众3秒留下。第一种，直接说数字；第二种，抛出一个反常识问题；第三种，承诺一个具体结果。"
+      }
+    },
+    {
+      "video_id": "1000000000000000003",
+      "url": "https://www.douyin.com/video/1000000000000000003",
+      "canonical_url": "https://www.douyin.com/video/1000000000000000003",
+      "creator_name": "示例博主",
+      "title": "我拆了100个爆款封面，发现这1个共同点……",
+      "desc": "示例描述 #示例",
+      "tags": ["示例"],
+      "publish_time": "2026-10-15T21:00:00+08:00",
+      "publish_time_raw": "2026-10-15",
+      "duration_sec": 40.0,
+      "duration_raw": "00:40",
+      "video_type": "口播",
+      "music": null,
+      "pinned": false,
+      "collection": null,
+      "author_declaration": null,
+      "stats": {
+        "digg_raw": "21.3万",
+        "comment_raw": "5600",
+        "collect_raw": "7.8万",
+        "share_raw": "3900",
+        "digg": 213000,
+        "comment": 5600,
+        "collect": 78000,
+        "share": 3900,
+        "extra": null
+      },
+      "list_digg_raw": "21.3万",
+      "media_path": null,
+      "media_bytes": null,
+      "errors": [],
+      "content_analysis": {
+        "opening_3s": "我拆了100个爆款封面，发现这1个共同点……",
+        "opening_5s": "我拆了100个爆款封面，发现这1个共同点……",
+        "core_topic": "爆款封面",
+        "content_categories": ["运营方法论"],
+        "core_viewpoint": null,
+        "content_structure": "悬念开场 → 给出发现 → 展开说明",
+        "structure_markers": ["发现", "共同点"],
+        "cta": null,
+        "special_expression": "悬念省略号",
+        "flags": {
+          "是否口播": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否提问开场": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否数字开场": {"value": true, "rule": "示例", "evidence": "100", "reason": null},
+          "是否教程": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否案例": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否剧情": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否热点借势": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否冲突开场": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否反常识表达": {"value": true, "rule": "示例", "evidence": null, "reason": null},
+          "是否有评论区引导": {"value": false, "rule": "示例", "evidence": null, "reason": null},
+          "是否有关注/私信/收藏引导": {"value": false, "rule": "示例", "evidence": null, "reason": null}
+        }
+      },
+      "comments": {
+        "items": [
+          {"text": "示例评论三", "digg": 2000}
+        ]
+      },
+      "transcript": {
+        "status": "ok",
+        "segments": [
+          {"start": 0, "end": 40, "text": "我拆了100个爆款封面，发现这1个共同点：封面只讲一件事，并且把结果写在上面。"}
+        ],
+        "text": "我拆了100个爆款封面，发现这1个共同点：封面只讲一件事，并且把结果写在上面。"
+      }
+    }
+  ]
+}

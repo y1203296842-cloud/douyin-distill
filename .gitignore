@@ -8,6 +8,12 @@ data/media/
 data/covers/
 data/plans/
 
+# 历史样例数据（含真实内容，仅本地保留）
+data/creators/油条条.json
+
 # 本地产物（仅根目录；data/creators/ 是数据仓，随仓库上传）
 /creators/
 /reports/
+
+# 设计工作目录（横幅等过程文件不入库）
+/.creative-design/

@@ -32,8 +32,6 @@ from .util import format_count
 # ffmpeg 常见安装位置探测（config 未配置 ffmpeg_bin 且 PATH 没有时的兜底）
 FFMPEG_PROBE_PATHS = [
     r"C:\ffmpeg\bin\ffmpeg.exe",
-    r"C:\ffmpeg\bin\ffmpeg.exe",
-    r"C:\ffmpeg\bin\ffmpeg.exe",
     r"C:\ProgramData\chocolatey\bin\ffmpeg.exe",
 ]
 
