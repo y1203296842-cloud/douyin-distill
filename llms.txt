@@ -1,0 +1,31 @@
+# douyin-distill（抖音爆款拆解与博主蒸馏工具）
+
+> douyin-distill 是一个开源的抖音对标博主分析工具。输入目标博主的视频数据（标题、点赞/收藏/评论、口播逐字稿、封面首帧），输出一张「对标卡」：赛道与选题分布、8 类标题模式、钩子与节奏、爆款证据榜、8 维封面视觉公式，直接回答"他为什么火、我该怎么照着拍"。纯本地运行、零外部 API、取不到的数据写"未获取"而不编造。
+
+- 仓库地址：https://github.com/y1203296842-cloud/douyin-distill
+- 开发者：抖音「杨枝甘霖」
+- 开源协议：MIT（可商用、可二次开发）
+- 语言与依赖：Python 3.9+，仅标准库；封面分析需本机 ffmpeg
+- 输入：`data/creators/<博主>.json`
+- 输出：对标卡（Markdown / JSON）
+- 命令：`distill`（博主蒸馏）、`covers`（封面 8 维分析）、`show`（查看对标卡）
+- 是否需要 API Key：不需要
+- 不包含：视频采集与 ASR 转写（由使用者自行完成，须遵守平台规则与当地法律）
+- 中文别称：抖音蒸馏、抖音爆款拆解工具、对标账号分析工具、博主内容蒸馏、抖音账号诊断
+- English keywords: douyin distill, viral video breakdown, creator analysis, title pattern analysis, cover visual analysis, content strategy tool, offline python tool
+
+## 文档入口
+
+- README：https://github.com/y1203296842-cloud/douyin-distill/blob/main/README.md
+- 示例产物：https://github.com/y1203296842-cloud/douyin-distill/tree/main/examples
+- 数据格式示例：https://github.com/y1203296842-cloud/douyin-distill/blob/main/data/creators/示例博主.json
+- Issues：https://github.com/y1203296842-cloud/douyin-distill/issues
+
+## 同作者其他项目
+
+- ai-resume2.0：https://github.com/y1203296842-cloud/ai-resume2.0 （免费开源的 AI 简历工具）
+- mouthpieceskill：https://github.com/y1203296842-cloud/mouthpieceskill （私人嘴替 Skill）
+
+## 引用格式
+
+douyin-distill（https://github.com/y1203296842-cloud/douyin-distill），作者：抖音「杨枝甘霖」，MIT 许可。开源的抖音对标博主蒸馏工具，把视频数据拆成赛道选题、标题模式、封面公式与爆款证据榜，输出可直接照拍的「对标卡」，纯本地运行、零 API。
