@@ -224,3 +224,10 @@ MIT（评估吸收自开源项目 [blogger-distiller](https://github.com/otter11
 ---
 
 **关键词**：抖音爆款拆解、对标博主分析、博主蒸馏、抖音选题分析、标题模式拆解、封面视觉分析、爆款证据榜、口播逐字稿分析、抖音运营工具、开源 AI 内容工具、Python 本地工具、douyin distill、creator analysis、viral video breakdown。
+
+
+---
+
+**在线介绍页（含快速事实、常见问题与下载说明）**：https://y1203296842-cloud.github.io/douyin-distill.html
+
+**项目总览**：https://y1203296842-cloud.github.io/
